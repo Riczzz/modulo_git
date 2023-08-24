@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+           
+            
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            
+        }
+
+        .form-cheak {
+          height: 100vh;
+          width: 100%;
+          display: flex;
+
+        }
+
+        
+        .input , button {
+            margin-top: 15px;
+            
+        }
+
+        label {
+            display: block;
+            font-weight: 500;
+        }
+      
+        #btn {
+            padding: 4px;
+            cursor: pointer;
+            
+        }
+      
+
+    </style>
+   
+</head>
+<body>
+    <div class="form-cheak">
+        <form>
+            <h2>Formulário de cadastro</h2>
+            <div class="input">
+                <label for="text">Nome</label>
+                <input type="text">
+            </div>
+            <div class="input">
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email">
+            </div>
+            <div class="input">
+                <label for="pass">Senha</label>
+                <input type="password" name="pass" id="password">
+            </div>
+            <button id="btn"> Cadastrar</button>
+        </form>
+    </div>
+    
+    
+</body>
+</html>
