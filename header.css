@@ -1,0 +1,42 @@
+.container-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 75%;
+    margin: 0 auto;
+    
+    
+}
+
+.container-header li {
+    display: inline;
+    
+}
+
+.container-header li a {
+    text-decoration: none;
+    margin-right: 24px;
+    color: var(--color2);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.container-header li a:hover {
+    color: var(--color1);
+    text-decoration: underline;
+    transition: 0.3s;
+}
+
+
+
+.container-header h1 {
+    font-family: 'Built Titling', sans-serif;
+    font-weight: 500;
+    font-size: 45px;
+    color: var(--color2);
+                                                
+}
+
+.container-header span {
+    color: var(--color1);
+}
